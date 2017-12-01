@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AE2492EAEDC8406AAE43946 /* Pods_DFShow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3ACD34FB10EF91EFC1AAC8 /* Pods_DFShow.framework */; };
 		6185A6B61FD125960073484E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6185A6B51FD125960073484E /* main.m */; };
 		6185A6B91FD125960073484E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6185A6B81FD125960073484E /* AppDelegate.m */; };
 		6185A6BC1FD125960073484E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6185A6BB1FD125960073484E /* ViewController.m */; };
 		6185A6BF1FD125960073484E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6185A6BD1FD125960073484E /* Main.storyboard */; };
-		6185A6C11FD125960073484E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6185A6C01FD125960073484E /* Assets.xcassets */; };
+		6185A6C11FD125960073484E /* DFMLive.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6185A6C01FD125960073484E /* DFMLive.xcassets */; };
 		6185A6C41FD125960073484E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6185A6C21FD125960073484E /* LaunchScreen.storyboard */; };
+		6185A6D51FD15B840073484E /* DFLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6185A6D41FD15B840073484E /* DFLoginViewController.m */; };
+		6185A6D71FD15CB80073484E /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6185A6D61FD15CB80073484E /* libstdc++.tbd */; };
+		6185A6D91FD15CBF0073484E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6185A6D81FD15CBF0073484E /* libz.tbd */; };
+		6185A6DB1FD15CCB0073484E /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6185A6DA1FD15CCB0073484E /* libbz2.tbd */; };
+		6185A6DD1FD15CEE0073484E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6185A6DC1FD15CEE0073484E /* MobileCoreServices.framework */; };
+		6185A6DF1FD15D0D0073484E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6185A6DE1FD15D0D0073484E /* MediaPlayer.framework */; };
+		6185A6E11FD15D1F0073484E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6185A6E01FD15D1F0073484E /* OpenGLES.framework */; };
+		6185A6E31FD15D2C0073484E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6185A6E21FD15D2C0073484E /* QuartzCore.framework */; };
+		6185A6E51FD15D3D0073484E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6185A6E41FD15D3D0073484E /* CoreGraphics.framework */; };
+		6185A6E71FD15D470073484E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6185A6E61FD15D470073484E /* CoreMedia.framework */; };
+		6185A6E91FD15D510073484E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6185A6E81FD15D510073484E /* AVFoundation.framework */; };
+		6185A6EB1FD15DBF0073484E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6185A6EA1FD15DBF0073484E /* AudioToolbox.framework */; };
+		6185A6ED1FD15DC90073484E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6185A6EC1FD15DC90073484E /* CoreVideo.framework */; };
+		6185A6EF1FD15DD90073484E /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6185A6EE1FD15DD90073484E /* VideoToolbox.framework */; };
+		6185A6F11FD15DF70073484E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6185A6F01FD15DF70073484E /* UIKit.framework */; };
+		6185A6F91FD15FA90073484E /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6185A6F51FD15FA90073484E /* UIColor+Hex.m */; };
+		6185A6FA1FD15FA90073484E /* MBProgressHUD+MBProgressHUD_Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 6185A6F71FD15FA90073484E /* MBProgressHUD+MBProgressHUD_Toast.m */; };
+		6185A6FD1FD163050073484E /* DFThirdLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6185A6FC1FD163050073484E /* DFThirdLoginView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FD3F6BD5FD39D1FD3C09C6B /* Pods-DFShow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFShow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DFShow/Pods-DFShow.debug.xcconfig"; sourceTree = "<group>"; };
 		6185A6B11FD125960073484E /* DFShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6185A6B51FD125960073484E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6185A6B71FD125960073484E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -23,9 +43,34 @@
 		6185A6BA1FD125960073484E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6185A6BB1FD125960073484E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6185A6BE1FD125960073484E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6185A6C01FD125960073484E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6185A6C01FD125960073484E /* DFMLive.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DFMLive.xcassets; sourceTree = "<group>"; };
 		6185A6C31FD125960073484E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6185A6C51FD125960073484E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6185A6D31FD15B840073484E /* DFLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLoginViewController.h; sourceTree = "<group>"; };
+		6185A6D41FD15B840073484E /* DFLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFLoginViewController.m; sourceTree = "<group>"; };
+		6185A6D61FD15CB80073484E /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		6185A6D81FD15CBF0073484E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6185A6DA1FD15CCB0073484E /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		6185A6DC1FD15CEE0073484E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6185A6DE1FD15D0D0073484E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6185A6E01FD15D1F0073484E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		6185A6E21FD15D2C0073484E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6185A6E41FD15D3D0073484E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6185A6E61FD15D470073484E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6185A6E81FD15D510073484E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6185A6EA1FD15DBF0073484E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6185A6EC1FD15DC90073484E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		6185A6EE1FD15DD90073484E /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		6185A6F01FD15DF70073484E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6185A6F41FD15E5E0073484E /* DFShow.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFShow.pch; sourceTree = "<group>"; };
+		6185A6F51FD15FA90073484E /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		6185A6F61FD15FA90073484E /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		6185A6F71FD15FA90073484E /* MBProgressHUD+MBProgressHUD_Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MBProgressHUD_Toast.m"; sourceTree = "<group>"; };
+		6185A6F81FD15FA90073484E /* MBProgressHUD+MBProgressHUD_Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MBProgressHUD_Toast.h"; sourceTree = "<group>"; };
+		6185A6FB1FD163050073484E /* DFThirdLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFThirdLoginView.h; sourceTree = "<group>"; };
+		6185A6FC1FD163050073484E /* DFThirdLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFThirdLoginView.m; sourceTree = "<group>"; };
+		7E6E3FF9D862B7E9B06111D7 /* Pods-DFShow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFShow.release.xcconfig"; path = "Pods/Target Support Files/Pods-DFShow/Pods-DFShow.release.xcconfig"; sourceTree = "<group>"; };
+		9D3ACD34FB10EF91EFC1AAC8 /* Pods_DFShow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DFShow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +78,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6185A6F11FD15DF70073484E /* UIKit.framework in Frameworks */,
+				6185A6EF1FD15DD90073484E /* VideoToolbox.framework in Frameworks */,
+				6185A6ED1FD15DC90073484E /* CoreVideo.framework in Frameworks */,
+				6185A6EB1FD15DBF0073484E /* AudioToolbox.framework in Frameworks */,
+				6185A6E91FD15D510073484E /* AVFoundation.framework in Frameworks */,
+				6185A6E71FD15D470073484E /* CoreMedia.framework in Frameworks */,
+				6185A6E51FD15D3D0073484E /* CoreGraphics.framework in Frameworks */,
+				6185A6E31FD15D2C0073484E /* QuartzCore.framework in Frameworks */,
+				6185A6E11FD15D1F0073484E /* OpenGLES.framework in Frameworks */,
+				6185A6DF1FD15D0D0073484E /* MediaPlayer.framework in Frameworks */,
+				6185A6DD1FD15CEE0073484E /* MobileCoreServices.framework in Frameworks */,
+				6185A6DB1FD15CCB0073484E /* libbz2.tbd in Frameworks */,
+				6185A6D91FD15CBF0073484E /* libz.tbd in Frameworks */,
+				6185A6D71FD15CB80073484E /* libstdc++.tbd in Frameworks */,
+				4AE2492EAEDC8406AAE43946 /* Pods_DFShow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		173A4309417FB5F00FADB20C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FD3F6BD5FD39D1FD3C09C6B /* Pods-DFShow.debug.xcconfig */,
+				7E6E3FF9D862B7E9B06111D7 /* Pods-DFShow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57D0729A2488F4B558E31AB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6185A6F01FD15DF70073484E /* UIKit.framework */,
+				6185A6EE1FD15DD90073484E /* VideoToolbox.framework */,
+				6185A6EC1FD15DC90073484E /* CoreVideo.framework */,
+				6185A6EA1FD15DBF0073484E /* AudioToolbox.framework */,
+				6185A6E81FD15D510073484E /* AVFoundation.framework */,
+				6185A6E61FD15D470073484E /* CoreMedia.framework */,
+				6185A6E41FD15D3D0073484E /* CoreGraphics.framework */,
+				6185A6E21FD15D2C0073484E /* QuartzCore.framework */,
+				6185A6E01FD15D1F0073484E /* OpenGLES.framework */,
+				6185A6DE1FD15D0D0073484E /* MediaPlayer.framework */,
+				6185A6DC1FD15CEE0073484E /* MobileCoreServices.framework */,
+				6185A6DA1FD15CCB0073484E /* libbz2.tbd */,
+				6185A6D81FD15CBF0073484E /* libz.tbd */,
+				6185A6D61FD15CB80073484E /* libstdc++.tbd */,
+				9D3ACD34FB10EF91EFC1AAC8 /* Pods_DFShow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6185A6A81FD125960073484E = {
 			isa = PBXGroup;
 			children = (
 				6185A6B31FD125960073484E /* DFShow */,
 				6185A6B21FD125960073484E /* Products */,
+				173A4309417FB5F00FADB20C /* Pods */,
+				57D0729A2488F4B558E31AB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +151,13 @@
 		6185A6B31FD125960073484E /* DFShow */ = {
 			isa = PBXGroup;
 			children = (
+				6185A6D01FD15A220073484E /* DFLogin */,
+				6185A6CB1FD12DD30073484E /* DFShow */,
+				6185A6CF1FD12DD30073484E /* DFMain */,
 				6185A6B71FD125960073484E /* AppDelegate.h */,
 				6185A6B81FD125960073484E /* AppDelegate.m */,
 				6185A6BA1FD125960073484E /* ViewController.h */,
 				6185A6BB1FD125960073484E /* ViewController.m */,
-				6185A6BD1FD125960073484E /* Main.storyboard */,
-				6185A6C01FD125960073484E /* Assets.xcassets */,
-				6185A6C21FD125960073484E /* LaunchScreen.storyboard */,
-				6185A6C51FD125960073484E /* Info.plist */,
 				6185A6B41FD125960073484E /* Supporting Files */,
 			);
 			path = DFShow;
@@ -74,9 +166,83 @@
 		6185A6B41FD125960073484E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6185A6C51FD125960073484E /* Info.plist */,
+				6185A6C21FD125960073484E /* LaunchScreen.storyboard */,
+				6185A6BD1FD125960073484E /* Main.storyboard */,
+				6185A6C01FD125960073484E /* DFMLive.xcassets */,
 				6185A6B51FD125960073484E /* main.m */,
+				6185A6F41FD15E5E0073484E /* DFShow.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6185A6CB1FD12DD30073484E /* DFShow */ = {
+			isa = PBXGroup;
+			children = (
+				6185A6CC1FD12DD30073484E /* Kit */,
+				6185A6CD1FD12DD30073484E /* Live */,
+				6185A6CE1FD12DD30073484E /* Show */,
+			);
+			path = DFShow;
+			sourceTree = "<group>";
+		};
+		6185A6CC1FD12DD30073484E /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				6185A6F51FD15FA90073484E /* UIColor+Hex.m */,
+				6185A6F61FD15FA90073484E /* UIColor+Hex.h */,
+				6185A6F71FD15FA90073484E /* MBProgressHUD+MBProgressHUD_Toast.m */,
+				6185A6F81FD15FA90073484E /* MBProgressHUD+MBProgressHUD_Toast.h */,
+			);
+			path = Kit;
+			sourceTree = "<group>";
+		};
+		6185A6CD1FD12DD30073484E /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		6185A6CE1FD12DD30073484E /* Show */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		6185A6CF1FD12DD30073484E /* DFMain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DFMain;
+			sourceTree = "<group>";
+		};
+		6185A6D01FD15A220073484E /* DFLogin */ = {
+			isa = PBXGroup;
+			children = (
+				6185A6D11FD15AF10073484E /* LoginView */,
+				6185A6D21FD15AF10073484E /* LoginController */,
+			);
+			path = DFLogin;
+			sourceTree = "<group>";
+		};
+		6185A6D11FD15AF10073484E /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				6185A6FB1FD163050073484E /* DFThirdLoginView.h */,
+				6185A6FC1FD163050073484E /* DFThirdLoginView.m */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		6185A6D21FD15AF10073484E /* LoginController */ = {
+			isa = PBXGroup;
+			children = (
+				6185A6D31FD15B840073484E /* DFLoginViewController.h */,
+				6185A6D41FD15B840073484E /* DFLoginViewController.m */,
+			);
+			path = LoginController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6185A6C81FD125960073484E /* Build configuration list for PBXNativeTarget "DFShow" */;
 			buildPhases = (
+				85E2EC9614D7897346871625 /* [CP] Check Pods Manifest.lock */,
 				6185A6AD1FD125960073484E /* Sources */,
 				6185A6AE1FD125960073484E /* Frameworks */,
 				6185A6AF1FD125960073484E /* Resources */,
+				DEB8B5A91F8A9379C57CE38B /* [CP] Embed Pods Frameworks */,
+				938D0CEFB12DED2E21A294D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +274,7 @@
 		6185A6A91FD125960073484E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DF;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = daifeng;
 				TargetAttributes = {
@@ -139,21 +309,73 @@
 			buildActionMask = 2147483647;
 			files = (
 				6185A6C41FD125960073484E /* LaunchScreen.storyboard in Resources */,
-				6185A6C11FD125960073484E /* Assets.xcassets in Resources */,
+				6185A6C11FD125960073484E /* DFMLive.xcassets in Resources */,
 				6185A6BF1FD125960073484E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		85E2EC9614D7897346871625 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		938D0CEFB12DED2E21A294D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DFShow/Pods-DFShow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEB8B5A91F8A9379C57CE38B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DFShow/Pods-DFShow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6185A6AD1FD125960073484E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6185A6D51FD15B840073484E /* DFLoginViewController.m in Sources */,
+				6185A6F91FD15FA90073484E /* UIColor+Hex.m in Sources */,
 				6185A6BC1FD125960073484E /* ViewController.m in Sources */,
 				6185A6B91FD125960073484E /* AppDelegate.m in Sources */,
+				6185A6FD1FD163050073484E /* DFThirdLoginView.m in Sources */,
 				6185A6B61FD125960073484E /* main.m in Sources */,
+				6185A6FA1FD15FA90073484E /* MBProgressHUD+MBProgressHUD_Toast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,10 +491,18 @@
 		};
 		6185A6C91FD125960073484E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FD3F6BD5FD39D1FD3C09C6B /* Pods-DFShow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 485NBRU9KM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DFShow/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/DFShow/DFShow.pch";
 				INFOPLIST_FILE = DFShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fdai.DFShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,10 +511,18 @@
 		};
 		6185A6CA1FD125960073484E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E6E3FF9D862B7E9B06111D7 /* Pods-DFShow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 485NBRU9KM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DFShow/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/DFShow/DFShow.pch";
 				INFOPLIST_FILE = DFShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fdai.DFShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,6 +548,7 @@
 				6185A6CA1FD125960073484E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

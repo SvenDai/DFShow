@@ -1,0 +1,35 @@
+//
+//  DFShow.pch
+//  DFShow
+//
+//  Created by daifeng on 2017/12/1.
+//  Copyright © 2017年 daifeng. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#endif
+
+#ifndef DFShow_pch
+#define DFShow_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+@import Masonry;
+//@import UIColor+HEX;
+//@import MBProgressHUD+MBProgressHUD_Toast;
+
+
+//DeBugLog 开关
+#define DEBUGDFLIVE
+
+#ifdef DEBUGDFLIVE
+#define DebugLog( s, ... ) NSLog( @"<%p %@:(%d)> %@", self, [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#else
+#define DebugLog( s, ... )
+#endif
+
+#endif /* DFShow_pch */
